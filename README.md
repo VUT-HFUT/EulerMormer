@@ -12,6 +12,7 @@ Video Motion Magnification (VMM) aims to break the resolution limit of human vis
 
 ## 📅: Update - Dec, 2023
 Congratulations on our work being accepted by AAAI 2024!💥💥💥
+
 We will release the source code soon.
 
 
