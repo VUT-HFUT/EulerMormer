@@ -1,5 +1,6 @@
 # EulerMormer: Robust Eulerian Motion Magnification via Dynamic Filtering within Transformer
 [Fei Wang](https://github.com/Jiafei127/), Dan Guo, [Kun Li](https://github.com/kunli-cs), Meng Wang. AAAI 2024.
+
 *Hefei University of Technology, Hefei Comprehensive National Science Center, Anhui Zhonghuitong Technology Co., Ltd.*
 
 #### [[arXiv]](https://arxiv.org/abs/2312.04152) | [[PDF]](https://arxiv.org/pdf/2312.04152.pdf)
