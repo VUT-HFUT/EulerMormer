@@ -16,3 +16,18 @@ Congratulations on our work being accepted by AAAI 2024!💥💥💥
 We will release the source code soon.
 
 
+## Citation
+
+If you found this code useful please consider citing our [paper](https://arxiv.org/abs/2312.04152):
+
+```
+@article{wang2023eulermormer,
+  title={EulerMormer: Robust Eulerian Motion Magnification via Dynamic Filtering within Transformer},
+  author={Wang, Fei and Guo, Dan and Li, Kun and Wang, Meng},
+  journal={arXiv preprint arXiv:2312.04152},
+  year={2023}
+}
+```
+
+
+
