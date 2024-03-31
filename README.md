@@ -21,12 +21,16 @@ We will release the source code soon.
 If you found this code useful please consider citing our [paper](https://arxiv.org/abs/2312.04152):
 
 ```
-@article{wang2023eulermormer,
-  title={EulerMormer: Robust Eulerian Motion Magnification via Dynamic Filtering within Transformer},
+@inproceedings{wang2024eulermormer,
+  title={Eulermormer: Robust eulerian motion magnification via dynamic filtering within transformer},
   author={Wang, Fei and Guo, Dan and Li, Kun and Wang, Meng},
-  journal={arXiv preprint arXiv:2312.04152},
-  year={2023}
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={38},
+  number={6},
+  pages={5345--5353},
+  year={2024}
 }
+
 ```
 
 
