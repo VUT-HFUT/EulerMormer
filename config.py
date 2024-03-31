@@ -46,7 +46,7 @@ class Config(object):
 
 
         self.frames_train = 'coco100000'        # you can adapt 100000 to a smaller number to train
-        self.cursor_end = int(self.frames_train.split('coco')[-1])  #将字符串以'coco'开割形成一个字符串数组，然后再通过索引[-1]取出所得数组中的第一个元素的值
+        self.cursor_end = int(self.frames_train.split('coco')[-1])  
         self.coco_amp_lst = np.loadtxt(os.path.join(self.dir_train, 'train_mf.txt'))[:self.cursor_end]
         self.videos_train = []
         self.load_all = False        # Don't turn it on, unless you have such a big mem.
