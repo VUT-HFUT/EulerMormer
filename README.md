@@ -19,7 +19,6 @@ We will release the source code soon.
 ## 🔖:Citation
 
 If you found this code useful please consider citing our [paper](https://arxiv.org/abs/2312.04152):
-
 ```
 @inproceedings{wang2024eulermormer,
   title={Eulermormer: Robust eulerian motion magnification via dynamic filtering within transformer},
@@ -30,7 +29,6 @@ If you found this code useful please consider citing our [paper](https://arxiv.o
   pages={5345--5353},
   year={2024}
 }
-
 ```
 
 
