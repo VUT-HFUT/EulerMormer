@@ -61,35 +61,6 @@ class Config(object):
         self.losses = []
 
 
-from skimage.metrics import mean_squared_error as compare_mse
-from sklearn.metrics import mean_absolute_error as compare_mae
-from skimage.metrics import peak_signal_noise_ratio as psnr
-from skimage.metrics import structural_similarity as ssim
-import numpy as np
-import math
-from cmath import sqrt
-
-def calc_mse(img1, img2):
-    mse_score = np.mean((img1 / 255. - img2 / 255.) ** 2)
-    return mse_score
-
-def calc_rmse(img1, img2):
-    mse_score = np.mean((img1 / 255. - img2 / 255.) ** 2)
-    rmse_score = sqrt(mse_score)
-    return rmse_score
-
-def calc_psnr(img1, img2):
-    mse = np.mean((img1 / 255. - img2 / 255.) ** 2)
-    if mse < 1.0e-10: 
-        return 100
-    PIXEL_MAX = 1.0
-    return 20 * math.log10(PIXEL_MAX / math.sqrt(mse)) 
-
-def calc_ssim(img1, img2):
-    ssim_score = ssim(img1, img2, data_range=255 , multichannel=True)
-    return ssim_score
-
-
 import json
 
 """ configuration json """
