@@ -18,13 +18,7 @@ class Config(object):
         # Data
         self.data_dir = './datasets'  
         self.dir_train = os.path.join(self.data_dir, 'train')
-        self.dir_test1 = os.path.join(self.data_dir, 'TVMM/test1')
-        self.dir_test2 = os.path.join(self.data_dir, 'TVMM/test2')
-        self.dir_test3 = os.path.join(self.data_dir, 'TVMM/test3')
-        self.test_amp_lst1 = np.loadtxt(os.path.join(self.dir_test1, 'test_mf.txt'))
-        self.test_amp_lst2 = np.loadtxt(os.path.join(self.dir_test2, 'test_mf.txt'))
-        self.test_amp_lst3 = np.loadtxt(os.path.join(self.dir_test3, 'test_mf.txt'))
-
+        # Test Data
         self.dir_baby = os.path.join(self.data_dir, 'train/train_vid_frames/val_baby')
         self.dir_gun = os.path.join(self.data_dir, 'train/train_vid_frames/val_gun')
         self.dir_water = os.path.join(self.data_dir, 'train/train_vid_frames/val_water')
