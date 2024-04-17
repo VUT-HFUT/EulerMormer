@@ -25,7 +25,7 @@ We will release the source code soon.
 
 - Real-world videos (or any self-prepared videos) need to be configured via the following:
   - Check the settings of val_dir in **config.py** and modify it if necessary.
-  - To convert the **validation** video into frames:
+  - To convert the **Real-world video** into frames:
     `mkdir VIDEO_NAME && ffmpeg -i VIDEO_NAME.mp4 -f image2 VIDEO_NAME/%06d.png`
 > Tips: ffmpeg can also be installed by conda.
   - Modify the frames into **frameA/frameB/frameC**:
