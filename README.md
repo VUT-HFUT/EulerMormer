@@ -18,7 +18,7 @@ We will release the source code soon.
 # Data preparation
 - For **train datasets** from [Oh et al. ECCV 2018](https://github.com/12dmodel/deep_motion_mag), see the official repository [here](https://drive.google.com/drive/folders/19K09QLouiV5N84wZiTPUMdoH9-UYqZrX?usp=sharing).
 
-- For **Real-world datatsets**, , we used three settings:
+- For **Real-world datatsets**, we used three settings:
   - [Static Dataset](https://drive.google.com/drive/folders/1Bm3ItPLhRxRYp-dQ1vZLCYNPajKqxZ1a)
   - [Dynamic Dataset](https://drive.google.com/drive/folders/1t5u8Utvmu6gnxs90NLUIfmIX0_5D3WtK)
   - [Fabric Dataset](http://www.visualvibrometry.com/cvpr2015/dataset.html) from [Davis et al. CVPR 2015 && TPAMI](http://www.visualvibrometry.com/publications/visvib_pami.pdf)
