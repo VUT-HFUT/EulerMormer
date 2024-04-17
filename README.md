@@ -15,7 +15,7 @@ Congratulations on our work being accepted by AAAI 2024!💥💥💥
 
 We will release the source code soon.
 
-# Data preparation
+## Data preparation
 - For **train datasets** from [Oh et al. ECCV 2018](https://github.com/12dmodel/deep_motion_mag), see the official repository [here](https://drive.google.com/drive/folders/19K09QLouiV5N84wZiTPUMdoH9-UYqZrX?usp=sharing).
 
 - For **Real-world datatsets**, we used three settings:
@@ -34,7 +34,7 @@ We will release the source code soon.
     `python make_frameACB.py `(remember adapt the 'if' at the beginning of the program to select videos.)
 > Tips: Thanks to a fellow friend [Peng Zheng](https://github.com/ZhengPeng7/motion_magnification_learning-based) for the help!
 
-# Env
+## Env
 `pip install torch==1.9.0+cu111 torchvision==0.10.0+cu111 torchaudio==0.9.0 -f https://download.pytorch.org/whl/torch_stable.html einops`
 
 ## 🔖:Citation
