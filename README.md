@@ -27,6 +27,7 @@ We will release the source code soon.
   - Check the settings of val_dir in **config.py** and modify it if necessary.
   - To convert the **Real-world video** into frames:
     `mkdir VIDEO_NAME && ffmpeg -i VIDEO_NAME.mp4 -f image2 VIDEO_NAME/%06d.png`
+    eg, `mkdir ./val_baby && ffmpeg -i ./baby.avi -f image2 ./val_baby/%06d.png`
 > Tips: ffmpeg can also be installed by conda.
   - Modify the frames into **frameA/frameB/frameC**:
     `python make_frameACB.py `(remember adapt the 'if' at the beginning of the program to select videos.)
