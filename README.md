@@ -15,6 +15,25 @@ Congratulations on our work being accepted by AAAI 2024!💥💥💥
 
 We will release the source code soon.
 
+# Data preparation
+- For **train datasets** from [Oh et al. ECCV 2018](https://github.com/12dmodel/deep_motion_mag), see the official repository [here](https://drive.google.com/drive/folders/19K09QLouiV5N84wZiTPUMdoH9-UYqZrX?usp=sharing).
+
+- For **Real-world datatsets**, , we used three settings:
+  - [Static Dataset](https://drive.google.com/drive/folders/1Bm3ItPLhRxRYp-dQ1vZLCYNPajKqxZ1a)
+  - [Dynamic Dataset](https://drive.google.com/drive/folders/1t5u8Utvmu6gnxs90NLUIfmIX0_5D3WtK)
+  - [Fabric Dataset](http://www.visualvibrometry.com/cvpr2015/dataset.html) from [Davis et al. CVPR 2015 && TPAMI](http://www.visualvibrometry.com/publications/visvib_pami.pdf)
+
+- Real-world videos (or any self-prepared videos) need to be configured via the following:
+  - Check the settings of val_dir in **config.py** and modify it if necessary.
+  - To convert the **validation** video into frames:
+    `mkdir VIDEO_NAME && ffmpeg -i VIDEO_NAME.mp4 -f image2 VIDEO_NAME/%06d.png`
+> Tips: ffmpeg can also be installed by conda.
+  - Modify the frames into **frameA/frameB/frameC**:
+    `python make_frameACB.py `(remember adapt the 'if' at the beginning of the program to select videos.)
+> Tips: Thanks to a fellow friend [Peng Zheng](https://github.com/ZhengPeng7/motion_magnification_learning-based) for the help!
+
+# Env
+`pip install torch==1.9.0+cu111 torchvision==0.10.0+cu111 torchaudio==0.9.0 -f https://download.pytorch.org/whl/torch_stable.html einops`
 
 ## 🔖:Citation
 
