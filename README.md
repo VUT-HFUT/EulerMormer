@@ -37,6 +37,14 @@ We will release the source code soon.
 ## Env
 `pip install torch==1.9.0+cu111 torchvision==0.10.0+cu111 torchaudio==0.9.0 -f https://download.pytorch.org/whl/torch_stable.html einops`
 
+## 🌐 Usage
+
+### ⚙ Network Architecture
+Our EulerMormer is implemented in ``model/magnet.py``.
+- For **Config: **    `config.py`
+- For **train: **    `python main.py`
+- For **test video: **    `python test_video.py`
+
 ## 🔖:Citation
 
 If you found this code useful please consider citing our [paper](https://arxiv.org/abs/2312.04152):
