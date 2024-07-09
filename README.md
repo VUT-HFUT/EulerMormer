@@ -13,8 +13,6 @@ Video Motion Magnification (VMM) aims to break the resolution limit of human vis
 ## 📅: Update - Dec, 2023
 Congratulations on our work being accepted by AAAI 2024!💥💥💥
 
-We will release the source code soon.
-
 ## Data preparation
 - For **train datasets** from [Oh et al. ECCV 2018](https://github.com/12dmodel/deep_motion_mag), see the official repository [here](https://drive.google.com/drive/folders/19K09QLouiV5N84wZiTPUMdoH9-UYqZrX?usp=sharing).
 
@@ -44,6 +42,11 @@ Our EulerMormer is implemented in ``model/magnet.py``.
 - For **Config:**    `config.py`
 - For **train:**    `python main.py`
 - For **test video:**    `python test_video.py`
+
+[Demo Baby](https://github.com/VUT-HFUT/EulerMormer/blob/main/fig/baby.avi)
+[Demo Drum](https://github.com/VUT-HFUT/EulerMormer/blob/main/fig/drum.avi)
+[Demo Cattoy](https://github.com/VUT-HFUT/EulerMormer/blob/main/fig/cattoy.avi)
+
 
 ## 🔖:Citation
 
